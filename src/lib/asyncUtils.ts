@@ -64,7 +64,7 @@ export const handleAsyncActions = (type, key ) => {
         
                 return {
                     ...state,
-                    [key]: reducerUtils.success(action.payload.data.data)
+                    [key]: reducerUtils.success(action.payload.data)
                 };
 
             case ERROR:

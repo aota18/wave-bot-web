@@ -1,7 +1,13 @@
 import { combineReducers} from 'redux';
 
-import test from './test';
+import account from './account';
+import toasts from './toasts';
+import market from './market';
+import orders from './orders';
 
 export default combineReducers({
-    test
+    account,
+    toasts,
+    market,
+    orders,
 })
