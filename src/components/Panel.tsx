@@ -29,8 +29,6 @@ const Panel = () => {
 
     const coins = [
         {name: "ADA"},
-        {name: "USDT"},
-        {name: "GLM"},
         {name: "BNB"},
         {name: "FTT"}
     ]
